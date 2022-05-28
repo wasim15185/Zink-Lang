@@ -1,0 +1,10 @@
+^C:\USERS\WASIM\DESKTOP\BOWIE-LANG\OUT\BUILD\X64-DEBUG\CMAKEFILES\A82D7AEB5CFD03B8985BB8FDD2D1CA60\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Bowie-Lang -BC:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/Bowie-Lang.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
