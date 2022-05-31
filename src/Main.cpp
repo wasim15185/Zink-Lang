@@ -30,19 +30,13 @@ SOFTWARE.
 #include<vector>
 #include<cstdint>
 #include "vm/Instruction.cpp"
+#include "vm/ByteCodeInterpreter.h"
  
 
 using namespace std;
+using namespace bytecodeInterpreter;
 
-
-struct InterpreterRegister {
-	vector<uint16_t> stack;
-	Instruction* currentInstruction;
-
-	InterpreterRegister(Instruction code[]) {
-		currentInstruction = code;
-	}
-};
+ 
 
 
 
@@ -63,50 +57,12 @@ int main()
 	// Stack code start from here .
 
 	
+	ByteCodeInterpreter::Run(code);
 
-	InterpreterRegister registers(code);
+	
 	  
 
-	while (registers.currentInstruction != nullptr)
-	{
-		switch (registers.currentInstruction->opcode)
-		{
-		case EXIT:{
-
-			registers.currentInstruction = nullptr;
-			break;
-		}
-
-		case ADD_INT: {
-			uint16_t leftHandSide = registers.stack.back();
-			registers.stack.pop_back();
-			uint16_t rightHandSide = registers.stack.back();
-			registers.stack.pop_back();
-
-			registers.stack.push_back(leftHandSide + rightHandSide);
-
-			++registers.currentInstruction;
-
-			break;
-		}
-
-		case PUSH_INT:{
-			registers.stack.push_back(registers.currentInstruction->p2);
-			++registers.currentInstruction;
-			break;
-		}
-		
-		case PRINT_INT: {
-			uint16_t number = registers.stack.back();
-			registers.stack.pop_back();
-			cout << "Number is : " << number << endl;
-			++registers.currentInstruction;
-			break;
-		}
-		
-
-		}
-	}
+	 
 	
 	cout << "Program is exit... \n" << endl;
 
