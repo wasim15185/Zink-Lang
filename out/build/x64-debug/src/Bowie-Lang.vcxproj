@@ -316,6 +316,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\ByteCodeInterpreter.cpp" />
     <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\ByteCodeInterpreter.h" />
     <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\Instruction.h" />
+    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\frontend\scanner.h" />
+    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\frontend\scanner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\ZERO_CHECK.vcxproj">

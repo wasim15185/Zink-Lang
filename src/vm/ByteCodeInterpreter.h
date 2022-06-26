@@ -26,6 +26,7 @@ namespace bytecodeInterpreter {
 	void AddIntInstruction(InterpreterRegisters& registers);
 	void PushIntInstruction(InterpreterRegisters& registers);
 	void PrintIntInstruction(InterpreterRegisters& registers);
+	void CompairIntLessThanInstruction(InterpreterRegisters& registers);
 
 
 

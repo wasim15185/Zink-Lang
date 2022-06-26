@@ -12,6 +12,7 @@ namespace bytecodeInterpreter {
 		ADD_INT,
 		PUSH_INT,
 		PRINT_INT,
+		COM_INT_LESS_THAN, // means compair int less than .
 		NUM_INSTRUCTION
 	};
 

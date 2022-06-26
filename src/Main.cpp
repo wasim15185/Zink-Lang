@@ -36,18 +36,13 @@ SOFTWARE.
 using namespace std;
 using namespace bytecodeInterpreter;
 
- 
-
-
-
-
-int main()
+ int main()
 {
 	cout << "Bowie-Lang bytecode VM is Started ... \n" << endl;
 	
 	Instruction code[] = {
 		Instruction(PUSH_INT, 0,4000),
-		Instruction(PUSH_INT, 0,1042),
+		Instruction(PUSH_INT, 0,9000),
 		Instruction(ADD_INT, 0,0),
 		Instruction(PRINT_INT, 0,0),
 		Instruction(EXIT,0,0),
