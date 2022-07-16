@@ -62,7 +62,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-1d23315776a9f72ea444.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-1aea89a4c71d77c60912.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -76,7 +76,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-096c409db2d1c7a4ace9.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-e4c5abd499323a81bb18.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -143,7 +143,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-1d23315776a9f72ea444.json",
+					"jsonFile" : "target-ALL_BUILD-Release-1aea89a4c71d77c60912.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -157,7 +157,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-096c409db2d1c7a4ace9.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-e4c5abd499323a81bb18.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -224,7 +224,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-1d23315776a9f72ea444.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-1aea89a4c71d77c60912.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -238,7 +238,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-096c409db2d1c7a4ace9.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-e4c5abd499323a81bb18.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -305,7 +305,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-1d23315776a9f72ea444.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-1aea89a4c71d77c60912.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -319,7 +319,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-096c409db2d1c7a4ace9.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-e4c5abd499323a81bb18.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -329,8 +329,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug",
-		"source" : "C:/Users/WASIM/Desktop/Bowie-Lang"
+		"build" : "C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug",
+		"source" : "C:/Users/WASIM/Desktop/Zink-Lang"
 	},
 	"version" : 
 	{

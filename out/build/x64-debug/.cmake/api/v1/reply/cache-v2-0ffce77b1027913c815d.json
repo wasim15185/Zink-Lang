@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug"
+			"value" : "C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug"
 		},
 		{
 			"name" : "Bowie-Lang_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/WASIM/Desktop/Bowie-Lang"
+			"value" : "C:/Users/WASIM/Desktop/Zink-Lang"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug"
+			"value" : "c:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/WASIM/Desktop/Bowie-Lang"
+			"value" : "C:/Users/WASIM/Desktop/Zink-Lang"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/WASIM/Desktop/Bowie-Lang/out/install/x64-debug"
+			"value" : "C:/Users/WASIM/Desktop/Zink-Lang/out/install/x64-debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",

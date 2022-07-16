@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0489E351-A15F-392D-82A6-18E11CC86BD3}</ProjectGuid>
+    <ProjectGuid>{0E94F659-627B-3D7E-8AAB-A0C91DCE47F2}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -60,25 +60,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Bowie-Lang.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Bowie-Lang</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Bowie-Lang.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Bowie-Lang</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Bowie-Lang.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Bowie-Lang</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Bowie-Lang.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Bowie-Lang</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -119,8 +119,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/Debug/Bowie-Lang.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/Debug/Bowie-Lang.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/Debug/Bowie-Lang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/Debug/Bowie-Lang.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -161,8 +161,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/Release/Bowie-Lang.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/Release/Bowie-Lang.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/Release/Bowie-Lang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/Release/Bowie-Lang.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -203,8 +203,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/MinSizeRel/Bowie-Lang.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/MinSizeRel/Bowie-Lang.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/MinSizeRel/Bowie-Lang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/MinSizeRel/Bowie-Lang.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -244,8 +244,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/RelWithDebInfo/Bowie-Lang.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/RelWithDebInfo/Bowie-Lang.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/RelWithDebInfo/Bowie-Lang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/RelWithDebInfo/Bowie-Lang.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -253,11 +253,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\WASIM\Desktop\Zink-Lang\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/WASIM/Desktop/Bowie-Lang/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/WASIM/Desktop/Zink-Lang/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Bowie-Lang -BC:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug --check-stamp-file C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Zink-Lang -BC:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug --check-stamp-file C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -266,11 +266,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/WASIM/Desktop/Bowie-Lang/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/WASIM/Desktop/Zink-Lang/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Bowie-Lang -BC:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug --check-stamp-file C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Zink-Lang -BC:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug --check-stamp-file C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,11 +279,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/WASIM/Desktop/Bowie-Lang/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/WASIM/Desktop/Zink-Lang/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Bowie-Lang -BC:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug --check-stamp-file C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Zink-Lang -BC:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug --check-stamp-file C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -292,11 +292,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/WASIM/Desktop/Bowie-Lang/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/WASIM/Desktop/Zink-Lang/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Bowie-Lang -BC:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug --check-stamp-file C:/Users/WASIM/Desktop/Bowie-Lang/out/build/x64-debug/src/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Zink-Lang -BC:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug --check-stamp-file C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-debug/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -305,23 +305,23 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\Main.cpp" />
-    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\Main.h" />
-    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\Instruction.cpp" />
-    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\ByteCodeInterpreter.cpp" />
-    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\ByteCodeInterpreter.h" />
-    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\Instruction.h" />
-    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\frontend\scanner.h" />
-    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\frontend\scanner.cpp" />
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\src\Main.cpp" />
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\src\Main.h" />
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\src\vm\Instruction.cpp" />
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\src\vm\ByteCodeInterpreter.cpp" />
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\src\vm\ByteCodeInterpreter.h" />
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\src\vm\Instruction.h" />
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\src\frontend\scanner.h" />
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\src\frontend\scanner.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\WASIM\Desktop\Bowie-Lang\out\build\x64-debug\ZERO_CHECK.vcxproj">
-      <Project>{E0675B0F-22C6-3C9A-8609-EB09AB15DDE8}</Project>
+    <ProjectReference Include="C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\ZERO_CHECK.vcxproj">
+      <Project>{8DAB8DC9-E22B-325C-90F6-8627A0FDE2EF}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

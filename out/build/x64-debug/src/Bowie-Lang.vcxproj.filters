@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\Main.cpp">
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\Instruction.cpp">
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\src\vm\Instruction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\ByteCodeInterpreter.cpp">
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\src\vm\ByteCodeInterpreter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\frontend\scanner.cpp">
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\src\frontend\scanner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\Main.h">
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\src\Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\ByteCodeInterpreter.h">
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\src\vm\ByteCodeInterpreter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\vm\Instruction.h">
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\src\vm\Instruction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\frontend\scanner.h">
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\src\frontend\scanner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\WASIM\Desktop\Bowie-Lang\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\WASIM\Desktop\Zink-Lang\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{B5A9481E-51CE-3E18-B842-CD0461F3A71D}</UniqueIdentifier>
+      <UniqueIdentifier>{88FF54BD-C9FC-3BD3-BB6E-09076C1327B9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3BB3EFD2-27C8-3C30-8301-C961065CCCDA}</UniqueIdentifier>
+      <UniqueIdentifier>{4735F9A5-64BB-32E3-A3B0-7FCE97782BE1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
