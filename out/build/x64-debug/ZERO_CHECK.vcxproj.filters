@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-debug\CMakeFiles\6554fc77d85f330361e31a5061e84f20\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-Debug\CMakeFiles\7fc586979a4d8b93e360ab8cddd9309a\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{064C7995-3C81-3EC7-9430-6C32324758E3}</UniqueIdentifier>
+      <UniqueIdentifier>{ACBF1B89-B68D-3AAA-A925-E5BC72E8E6DA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
