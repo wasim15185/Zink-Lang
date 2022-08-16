@@ -1,5 +1,3 @@
-#include"Zink.h"
-
 
 /*
 MIT License
@@ -23,24 +21,22 @@ SOFTWARE.
 
 
 
-#include "Zink.h"
+#include"Zink.hpp"
 #include<vector>
 #include<cstdint>
- 
+#include<Token.hpp>
+
 
 
 using namespace std;
+using namespace zink;
 
 
 int main()
 {
-	cout << "Bowie-Lang bytecode VM is Started ... \n" << endl;
+		 
 
-	 
-
-
-
-	cout << "Program is exit... \n" << endl;
+	cout << "Program is exit... \n"<< frontend::CONST<< endl;
 
 	return 0;
 }

@@ -34,6 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-Debug/frontend/cmake_install.cmake")
   include("C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-Debug/src/cmake_install.cmake")
 
 endif()

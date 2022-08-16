@@ -171,9 +171,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-Debug\src\Zink-Lang.vcxproj">
-      <Project>{A2AA4C4E-9A83-32B7-819E-408443AFCFE7}</Project>
-      <Name>Zink-Lang</Name>
+    <ProjectReference Include="C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-Debug\src\PROJECT_NAME.vcxproj">
+      <Project>{CF48609E-26CA-3417-82FC-62FB41A6C666}</Project>
+      <Name>PROJECT_NAME</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-Debug\frontend\front_end_lib.vcxproj">
+      <Project>{F2DD53A1-38F8-32DC-9E08-907D5E39A55A}</Project>
+      <Name>front_end_lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

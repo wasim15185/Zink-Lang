@@ -1,0 +1,5 @@
+C:/Users/WASIM/Desktop/Zink-Lang/out/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/WASIM/Desktop/Zink-Lang/out/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/WASIM/Desktop/Zink-Lang/out/build/frontend/CMakeFiles/front_end_lib.dir
+C:/Users/WASIM/Desktop/Zink-Lang/out/build/src/CMakeFiles/PROJECT_NAME.dir
+C:/Users/WASIM/Desktop/Zink-Lang/out/build/src/CMakeFiles/ALL_BUILD.dir
