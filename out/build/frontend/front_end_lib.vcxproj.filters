@@ -6,9 +6,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\TokenType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93EC26F0-236C-3CB3-B4F3-9F574BEB89FD}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{01F4B27B-2FC9-39C0-9C7F-C398432CAC7D}</UniqueIdentifier>
     </Filter>

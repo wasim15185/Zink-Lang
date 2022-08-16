@@ -25,6 +25,7 @@ SOFTWARE.
 #include<vector>
 #include<cstdint>
 #include<Token.hpp>
+#include<TokenType.hpp>
 
 
 
@@ -34,9 +35,10 @@ using namespace zink;
 
 int main()
 {
+ 
 		 
 
-	cout << "Program is exit... \n"<< frontend::CONST<< endl;
+	cout << "Program is exit... \n" << frontend::TokenTypeName::getName(frontend:: TokenType::LET) << endl;
 
 	return 0;
 }

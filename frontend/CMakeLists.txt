@@ -4,7 +4,7 @@ add_library(
 	front_end_lib 
 
 	 
-	
+	"source/TokenType.hpp"
 	"source/Token.cpp"
 )
 

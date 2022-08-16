@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Debug/PROJECT_NAME.exe"
+			"path" : "src/RelWithDebInfo/PROJECT_NAME.exe"
 		},
 		{
-			"path" : "src/Debug/PROJECT_NAME.pdb"
+			"path" : "src/RelWithDebInfo/PROJECT_NAME.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
 				}
 			],
 			"includes" : 
@@ -65,11 +65,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "front_end_lib::@73e8a6b9a3e1c0d3809b"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 2,
+			"id" : "front_end_lib::@73e8a6b9a3e1c0d3809b"
 		}
 	],
 	"id" : "PROJECT_NAME::@145eef247bfb46b6828c",
@@ -78,7 +78,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -87,7 +87,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\frontend\\Debug\\front_end_lib.lib",
+				"fragment" : "..\\frontend\\RelWithDebInfo\\front_end_lib.lib",
 				"role" : "libraries"
 			},
 			{
