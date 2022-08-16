@@ -4,7 +4,14 @@ namespace zink {
 
 	namespace frontend {
 
-		 
+		class Token {
+
+
+  
+
+
+
+		 };
 
 
 	}
