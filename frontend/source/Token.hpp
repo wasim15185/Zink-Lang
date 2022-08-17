@@ -6,6 +6,8 @@ namespace zink {
 	namespace frontend {
 
 		class Token {
+		
+
 
 		public:
 			Token(const TokenType* type, std::string lexeme, std::string litaralStr, int line);
@@ -16,9 +18,13 @@ namespace zink {
 
 
 
-		struct Litaral
+		struct Object
 		{
-
+			 
+			Object(std::string value);
+			int toInt;
+			std::string toString;
+			float toFloat;
 		};
 
 	}
