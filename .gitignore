@@ -1,2 +1,14 @@
 .vs/
-out/
+
+
+ *.dll
+*.exe
+*.exp
+*.ilk
+*.lib
+*.ncb
+*.log
+*.pdb
+*.vcproj.*.user
+[Dd]ebug
+[Rr]elease
