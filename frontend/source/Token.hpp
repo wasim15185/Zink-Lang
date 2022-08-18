@@ -1,34 +1,39 @@
 #pragma once 
 #include<iostream>
 #include "TokenType.hpp"
+#include"utils/object.hpp"
+
+
 namespace zink {
 
 	namespace frontend {
 
 		class Token {
+
+			 
 		
+		 TokenType* type;
+		 std::string lexeme ;
+		 Object& litaral ;
+		 int line;
 
 
 		public:
-			Token(const TokenType* type, std::string lexeme, Object litaralStr, int line);
-			/*Later Please use 'Destructor' */
-
-
-
-
-		};
-
-
-
-		struct Object
-		{
 			 
-			Object(std::string value);
+			Token( TokenType* typeVal, std::string lexemeVal, Object& litVal, int lineVal);
 			/*Later Please use 'Destructor' */
-			int toInt;
-			std::string toString;
-			float toFloat;
+
+			TokenType* getType() const ;
+			std::string getLexeme() const ;
+			Object& getLitaral() const ;
+			int getLine() const;
+
+
 		};
+
+
+		
+		
 
 	}
 

@@ -6,6 +6,8 @@ add_library(
 	 
 	"source/TokenType.hpp"
 	"source/Token.cpp"
+ "source/utils/object.cpp" 
+ "source/utils/scanner.cpp"
 )
 
 
