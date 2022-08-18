@@ -10,7 +10,9 @@ namespace zink {
 
 
 		public:
-			Token(const TokenType* type, std::string lexeme, std::string litaralStr, int line);
+			Token(const TokenType* type, std::string lexeme, Object litaralStr, int line);
+			/*Later Please use 'Destructor' */
+
 
 
 
@@ -22,6 +24,7 @@ namespace zink {
 		{
 			 
 			Object(std::string value);
+			/*Later Please use 'Destructor' */
 			int toInt;
 			std::string toString;
 			float toFloat;
