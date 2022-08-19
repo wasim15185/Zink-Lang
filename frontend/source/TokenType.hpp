@@ -1,5 +1,10 @@
 #pragma once
 
+#ifndef TOKENTYPE_HPP
+ 
+#define TOKENTYPE_HPP
+
+
 namespace zink {
 
 		namespace frontend {
@@ -133,3 +138,5 @@ namespace zink {
 
 
 }
+
+#endif TOKENTYPE_HPP

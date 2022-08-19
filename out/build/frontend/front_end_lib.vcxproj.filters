@@ -4,6 +4,12 @@
     <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\Token.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\utils\object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\scanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\TokenType.hpp">

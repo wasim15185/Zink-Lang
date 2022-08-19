@@ -3,6 +3,9 @@
 #include "TokenType.hpp"
 #include"utils/object.hpp"
 
+#ifndef TOKEN_HPP
+#define TOKEN_HPP
+
 
 namespace zink {
 
@@ -39,3 +42,5 @@ namespace zink {
 
 
 }
+
+#endif  TOKEN_HPP

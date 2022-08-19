@@ -26,17 +26,52 @@ SOFTWARE.
 #include<cstdint>
 #include<Token.hpp>
 #include<TokenType.hpp>
+#include<scanner.hpp>
 
 
 
 using namespace std;
 using namespace zink;
+using namespace frontend;
+
+// defination of function
+static void run(const string& line); 
+static void repl();
+
+static void repl()
+{
+    char* line = (char*)malloc(1024);
+
+    cout << "\n\t Zink Programming Language (Beta) \n"
+        << endl;
+
+    while (true)
+    {
+        cout << " > ";
+
+        cin.getline(line, 1024);
+
+
+        if (strlen(line) == 0)
+            continue;
+
+        run(line);
+    }
+}
+
+static void run(const string& line) {
+    cout << line + "\n";
+
+  //  Scanner* scanner = new Scanner();
+
+}
+
 
 
 int main()
 {
  
-		 
+    repl();
 
 	cout << "Program is exit... \n" << frontend::TokenTypeName::getName(frontend:: TokenType::LET) << endl;
 
