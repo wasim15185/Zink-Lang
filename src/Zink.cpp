@@ -35,17 +35,17 @@ using namespace zink;
 using namespace frontend;
 
 // defination of function
-static void run(const string& line); 
-static void repl();
+ void run(const string& line); 
+ void repl();
 
-static void repl()
+ void repl()
 {
     char* line = (char*)malloc(1024);
 
     cout << "\n\t Zink Programming Language (Beta) \n"
         << endl;
 
-    while (true)
+    for (;;)
     {
         cout << " > ";
 
@@ -59,7 +59,7 @@ static void repl()
     }
 }
 
-static void run(const string& line) {
+ void run(const string& line) {
     cout << line + "\n";
 
   //  Scanner* scanner = new Scanner();

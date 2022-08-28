@@ -10,6 +10,9 @@
     <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\scanner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\utils\keywords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\TokenType.hpp">

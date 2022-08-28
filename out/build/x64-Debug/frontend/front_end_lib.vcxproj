@@ -270,6 +270,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\Token.cpp" />
     <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\utils\object.cpp" />
     <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\scanner.cpp" />
+    <ClCompile Include="C:\Users\WASIM\Desktop\Zink-Lang\frontend\source\utils\keywords.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\WASIM\Desktop\Zink-Lang\out\build\x64-Debug\ZERO_CHECK.vcxproj">

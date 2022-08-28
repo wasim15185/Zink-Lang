@@ -12,9 +12,10 @@ namespace zink {
 		{
 		private:
 			std::string source;
-			std::vector<Token> tokens;
+			 
+			std::vector<Token> tokens;  // list of 'tokens'
 
-
+			
 			unsigned int start = 0; //  the first character in the lexeme being scanned
 
 			unsigned int current = 0; //  the character currently being considered
@@ -24,6 +25,8 @@ namespace zink {
 			std::map<std::string, TokenType> keywords;
 
 			bool isAtEnd();
+
+			void scanToken();
 
 			/*
 			 * What is an <b>Identifier</b> ? <br/>
@@ -114,6 +117,10 @@ namespace zink {
 		public:
 			Scanner(std::string source);
 			~Scanner();
+			/*
+			* scanTokens() : this method returns "List of Tokens" .
+			* @param: vector<Token>
+			*/
 			std::vector<Token> scanTokens();
 
 

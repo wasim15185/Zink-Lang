@@ -26,11 +26,13 @@ namespace zink {
 						IDENTIFIER, STRING, NUMBER,
 
 						//Keywords
-						LET, CONST, FUN, CLASS, PRINT, UNIT, TRUE, FALSE, RETURN, // NEW,
-						WHILE, IF, ELSE,
+						LET, CONST, FUN, CLASS, OBJECT , PRINT, UNIT, TRUE, FALSE, RETURN, // NEW,
+						WHILE, IF, ELSE, AND ,OR  ,
 						// 
 
 						EXTENDS , IMPLEMENTS , OVERRIDE ,
+
+						NULLL ,
 
 						END_OF_FILE
 
@@ -102,6 +104,8 @@ namespace zink {
 								return "FUN";
 							case zink::frontend::TokenType::CLASS:
 								return "CLASS";
+							case zink::frontend::TokenType::OBJECT:
+								return "OBJECT";
 							case zink::frontend::TokenType::PRINT:
 								return "PRINT";
 							case zink::frontend::TokenType::UNIT:
@@ -118,12 +122,20 @@ namespace zink {
 								return "IF";
 							case zink::frontend::TokenType::ELSE:
 								return "ELSE";
+
+							case zink::frontend::TokenType::AND:
+								return "AND";
+							case zink::frontend::TokenType::OR:
+								return "OR";
+
 							case zink::frontend::TokenType::EXTENDS: 
 								return "EXTENDS";
 							case zink::frontend::TokenType::IMPLEMENTS:
 								return "IMPLEMENTS";
 							case zink::frontend::TokenType::OVERRIDE:
 								return "OVERRIDE";
+							case zink::frontend::TokenType::NULLL :
+								return "null";
 							case zink::frontend::TokenType::END_OF_FILE:
 								return "EOF";
 							default:
