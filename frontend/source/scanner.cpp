@@ -44,7 +44,7 @@ void Scanner::identifier() {
 */
 
 char Scanner::advance() {
-	return source[current++];
+	return source.at(current++);
 }
 
 
@@ -55,12 +55,12 @@ char Scanner::advance() {
  */
  char Scanner::peek() {
     if (isAtEnd()) return '\0'; // '\0' means null character in string array
-    return source[current];
+    return source.at(current);
 }
 
  char Scanner::peekNext() {
     if (current + 1 >= source.length()) return '\0';
-    return source[current + 1];
+    return source.at(current + 1);
 }
 
 
@@ -77,7 +77,7 @@ char Scanner::advance() {
  */
   bool Scanner::match(char expected) {
      if (isAtEnd()) return false;
-     if (source[current] != expected) return false;
+     if (source.at(current) != expected) return false;
 
      current++;
      return true;
@@ -90,7 +90,7 @@ char Scanner::advance() {
  * @param c
  * @return boolean
  */
-   bool Scanner::isDigit(char c) {
+   bool isDigit(char c) {
       return c >= '0' && c <= '9';
   }
 
