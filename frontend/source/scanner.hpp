@@ -108,9 +108,9 @@ namespace zink {
 			 *
 			 * @param type
 			 */
-			 void addToken(TokenType type);
+			 void addToken(TokenType& type);
 
-			 void addToken(TokenType type, Object literal);
+			 void addToken(TokenType& type, Object& literal);
 
 
 

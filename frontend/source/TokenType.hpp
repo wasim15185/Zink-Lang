@@ -4,6 +4,7 @@
  
 #define TOKENTYPE_HPP
 
+// for static method in class how can access the method : using ScopeResolution Operator (::)
 
 namespace zink {
 
@@ -40,12 +41,10 @@ namespace zink {
 					};
 
 
-					struct TokenTypeName
-					{
-						/*
-						This methods gives the name of "Token"
-						*/
-						static std::string getName(TokenType t) { // In c++ , to access a static method use ScopeResolution Operator (::) eg : `TokenTypeName::getName()`
+					/*
+					This methods gives the name of "Token"
+					*/
+					std::string tokenString(TokenType t) { // In c++ ,  eg : `TokenTypeName::getName()`
 							switch (t)
 							{
 							case zink::frontend::TokenType::LEFT_PAREN:
@@ -141,9 +140,8 @@ namespace zink {
 							default:
 								return "TOKEN_NOT_EXITS";
 							}
-						}
-
-					};
+						
+						 };
 
 
 		}

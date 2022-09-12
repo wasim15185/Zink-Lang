@@ -1,0 +1,10 @@
+^C:\USERS\WASIM\DESKTOP\ZINK-LANG\OUT\BUILD\X64-DEBUG\CMAKEFILES\7FC586979A4D8B93E360AB8CDDD9309A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/WASIM/Desktop/Zink-Lang -BC:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-Debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/WASIM/Desktop/Zink-Lang/out/build/x64-Debug/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

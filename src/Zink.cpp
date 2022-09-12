@@ -73,7 +73,7 @@ int main()
  
     repl();
 
-	cout << "Program is exit... \n" << frontend::TokenTypeName::getName(frontend:: TokenType::LET) << endl;
+	cout << "Program is exit... \n" << frontend::tokenString(frontend:: TokenType::LET) << endl;
 
 	return 0;
 }

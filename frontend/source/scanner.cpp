@@ -2,6 +2,7 @@
 
 using namespace zink;
 using namespace frontend;
+using namespace std;
 
 bool zink::frontend::Scanner::isAtEnd()
 {
@@ -32,6 +33,51 @@ bool Scanner::isAtEnd() {
  */
 
 void Scanner::identifier() {
+
+	while (Scanner::isAlphaNumeric(Scanner::peek()))
+	{
+		Scanner::advance();
+	}
+
+	std::string text = source.substr(start, current);
+
+	std::cout << "Text is -->" << text << std::endl;
+	 
+	map<std::string,TokenType>::iterator find = keywords.find(text); // find(text) : besically it gives the Address of 
+
+	/*
+	* 
+	*	vector , map <-- each are same diagram
+	* 
+	*	vector arr = { 8 , 4 , 5} 
+	* 
+	* 
+	*	+---------+					+---------+--------+--------+--------+
+	*	|  1024	  |					|	8	  |	4	   |	5	|		     	
+	*	|         |	------------>	|         |		   |		|	None(Null)	     
+	*	+---------+					+---------+--------+--------+--------+
+	*		arr							1024	1028	  1032      1036
+	*									|							|
+	*									|							|
+	*								arr.begin()					arr.end() <-- [ this "arr.end()" Important ]
+	*	
+	*							arr.begin : gives addess of first elemnt
+	*							arr.end : gives "next addess of last elemnt" <-- Important line
+	* 
+	*/
+
+	TokenType token;
+
+	if (find != keywords.end()) {
+		token = find->second ;			//find =  { "if"		:	  IF	}
+										//	     first			second
+	}else {
+		token = TokenType::END_OF_FILE;
+	}
+
+
+	addToken(token);
+
 
 };
 
@@ -111,3 +157,14 @@ void Scanner::scanToken() {
 	 
 	
 }
+
+
+void Scanner::addToken(TokenType& type) {
+
+
+};
+
+void Scanner::addToken(TokenType& type, Object& literal) {
+	std::string text = source.substr(start, current);
+	tokens.emplace_back(type, text, literal, line); // It is better from tokens.emplace_back(new Token(...))
+};
